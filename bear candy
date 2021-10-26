@@ -1,0 +1,26 @@
+local ju = game:GetService("UserInputService")
+
+ju.InputBegan:Connect(function(input)
+if ju:IsKeyDown(Enum.KeyCode.E) then
+local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i,v in pairs(game.Workspace.Map.Locates:GetDescendants()) do
+if v.Name == "Part2" then
+v.CFrame = me.CFrame
+end
+end
+end
+end)
+
+
+local ju = game:GetService("UserInputService")
+
+ju.InputBegan:Connect(function(input)
+if ju:IsKeyDown(Enum.KeyCode.F) then
+local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i,v in pairs(game.Workspace.Map.Locates:GetDescendants()) do
+if v.Name == "Part" then
+v.CFrame = me.CFrame
+end
+end
+end
+end)
