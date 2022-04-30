@@ -1,0 +1,36 @@
+local library = loadstring(game:HttpGet(((('https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library')))))()
+local fenetre_1 = library:Window("items")
+local fenetre_2 = library:Window("misc")
+
+fenetre_1:Button("bird", function()    
+       loadstring(game:HttpGet(((((('https://raw.githubusercontent.com/PitchyATree/myscript/main/vans%20pigeons')))))))() 
+end)
+
+fenetre_1:Button("umbrella", function()    
+       loadstring(game:HttpGet(((('https://raw.githubusercontent.com/PitchyATree/myscript/main/vans%20umbrella')))))()
+end)
+
+fenetre_2:Toggle("coins", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().tretre = bool
+
+while wait(5) do
+if getgenv().tretre == true then
+local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i,v in pairs(game.Workspace.CoinLocations:GetDescendants()) do
+if v.Name == "Coin" then
+v.CFrame = me.CFrame
+end
+end
+end -- bool is true or false depending on the state of the toggle
+end
+end)
+
+fenetre_2:Toggle("trick", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().orborn = bool
+    
+    while wait() do
+        if getgenv().orborn == true then
+            game:GetService("ReplicatedStorage").Tricks_TrickLanded:FireServer(true,360,1980,{{["TrickName"] = "Indy",["HasbeenReported"] = true,["IsRampTrick"] = true,["Value"] = 186.23915584757924},{["TrickName"] = "PopShoveIt180",["HasbeenReported"] = true,["IsRampTrick"] = true,["Value"] = 135},{["TrickName"] = "Stalefish",["HasbeenReported"] = true,["IsRampTrick"] = true,["Value"] = 209.91580770350993},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = true,["Value"] = 2.507085632532835},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = false,["Value"] = 0},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = false,["Value"] = 0},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = false,["Value"] = 0},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = false,["Value"] = 0},{["TrickName"] = "spin360",["HasbeenReported"] = true,["IsRampTrick"] = false,["Value"] = 0}})-- bool is true or false depending on the state of the toggle
+end
+end
+end)
