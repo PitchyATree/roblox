@@ -1,0 +1,840 @@
+--[[
+tank
+289.143, 46.6932, 7.13357--
+373.134, 40.911, -124.879--
+417.548, 41.0242, 15.7565--
+373.319, 40.7918, 131.088--
+fusebox
+268.533, 47.924, 53.7388--
+398.134, 43.4396, 147.086 --
+generators--
+340.927, 40.8819, 117.121--
+339.724, 40.8819, 122.358--
+392.014, 41.2376, 5.84076--
+244.005, 40.9319, -37.9859--
+jerrican
+385.149, 39.1877, 16.7147--
+351.244, 38.8898, 125.645--
+399.856, 38.8897, 141.856--
+334.395, 38.9774, 123.723--
+369.362, 39.1877, 42.5682--
+334.073, 38.8898, 113.254--
+290.136, 46.2688, 35.699--
+424.548, 39.139, 54.3337
+fuse
+279.313, 39.2274, 127.597--
+261.31, 40.9799, 139.876--
+322.897, 40.8923, 85.4166--
+327.712, 41.1415, -37.6618--
+236.467, 41.1799, -111.933--
+399.929, 40.732, -110.992--
+end
+31.975, 31.053, 75.6904--
+91.975, 46.7456, 76.0631--
+]]
+
+
+
+
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_17 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_18 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_20 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_22 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_23 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_24 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_25 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame.Position = UDim2.new(0.262643665, 0, 0.222222224, 0)
+Frame.Size = UDim2.new(0, 825, 0, 455)
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 0.100
+TextLabel.Size = UDim2.new(0, 825, 0, 49)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "GraveYard"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+ 
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0, 0, 0.164444402, 0)
+TextLabel_2.Size = UDim2.new(0, 260, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Generators"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0.315151513, 0, 0.888888836, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "fuse 6"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 279.313, 39.2274, 127.597)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)
+
+
+UICorner.CornerRadius = UDim.new(0.100000001, 8)
+UICorner.Parent = TextButton
+ 
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.00727272732, 0, 0.313333333, 0)
+TextButton_2.Size = UDim2.new(0, 100, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "gen 1"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(340.927, 40.8819, 117.121 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end) 
+
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_2.Parent = TextButton_2
+ 
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.Position = UDim2.new(0.158787876, 0, 0.313333333, 0)
+TextButton_3.Size = UDim2.new(0, 100, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "gen 2"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+TextButton_3.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 339.724, 40.8819, 122.358)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_3.Parent = TextButton_3
+ 
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.Position = UDim2.new(0.00727272034, 0, 0.462222219, 0)
+TextButton_4.Size = UDim2.new(0, 100, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "gen 3"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+TextButton_4.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 392.014, 41.2376, 5.84076)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_4.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_4.Parent = TextButton_4
+ 
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.Position = UDim2.new(0.158787876, 0, 0.462222219, 0)
+TextButton_5.Size = UDim2.new(0, 100, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "gen 4"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(244.005, 40.9319, -37.9859)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_5.Parent = TextButton_5
+ 
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.Position = UDim2.new(0.315151513, 0, 0.313333333, 0)
+TextButton_6.Size = UDim2.new(0, 100, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "jerrican 1"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 385.149, 39.1877, 16.7147)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_6.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_6.Parent = TextButton_6
+ 
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.Position = UDim2.new(0.450909048, 0, 0.313333333, 0)
+TextButton_7.Size = UDim2.new(0, 100, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "jerrican 2"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+TextButton_7.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(351.244, 38.8898, 125.645 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_7.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_7.Parent = TextButton_7
+ 
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.Position = UDim2.new(0.585454524, 0, 0.462222189, 0)
+TextButton_8.Size = UDim2.new(0, 100, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "fuel tank 1"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+TextButton_8.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 289.143, 46.6932, 7.13357)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_8.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_8.Parent = TextButton_8
+ 
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.Position = UDim2.new(0.723636329, 0, 0.462222189, 0)
+TextButton_9.Size = UDim2.new(0, 100, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "fuel tank 2"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+TextButton_9.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 373.134, 40.911, -124.879)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_9.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_9.Parent = TextButton_9
+ 
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.Position = UDim2.new(0.860605955, 0, 0.460586071, 0)
+TextButton_10.Size = UDim2.new(0, 100, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "fuel tank 3"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+TextButton_10.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 417.548, 41.0242, 15.7565)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_10.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_10.Parent = TextButton_10
+ 
+TextButton_11.Parent = Frame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.Position = UDim2.new(0, 0, 0.75111109, 0)
+TextButton_11.Size = UDim2.new(0, 100, 0, 50)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "fuse 1"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+TextButton_11.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 327.712, 41.1415, -37.6618)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_11.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_11.Parent = TextButton_11
+ 
+TextButton_12.Parent = Frame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.Position = UDim2.new(0.158787876, 0, 0.75111109, 0)
+TextButton_12.Size = UDim2.new(0, 100, 0, 50)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "fuse 2 "
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+TextButton_12.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 399.929, 40.732, -110.992)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_12.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_12.Parent = TextButton_12
+ 
+TextButton_13.Parent = Frame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.Position = UDim2.new(0, 0, 0.888888836, 0)
+TextButton_13.Size = UDim2.new(0, 100, 0, 50)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "fuse 4"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+TextButton_13.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 261.31, 40.9799, 139.876)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_13.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_13.Parent = TextButton_13
+ 
+TextButton_14.Parent = Frame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.Position = UDim2.new(0.158787876, 0, 0.888888836, 0)
+TextButton_14.Size = UDim2.new(0, 100, 0, 50)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "fuse 5"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+TextButton_14.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 236.467, 41.1799, -111.933)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_14.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_14.Parent = TextButton_14
+ 
+TextButton_15.Parent = Frame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.Position = UDim2.new(0.74787879, 0, 0.885176957, 0)
+TextButton_15.Size = UDim2.new(0, 100, 0, 50)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "end 2"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+TextButton_15.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(31.975, 31.053, 75.6904 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_15.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_15.Parent = TextButton_15
+ 
+TextButton_16.Parent = Frame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.Position = UDim2.new(0.74787873, 0, 0.751111031, 0)
+TextButton_16.Size = UDim2.new(0, 100, 0, 50)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "end 1"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+TextButton_16.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(91.975, 46.7456, 76.0631 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_16.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_16.Parent = TextButton_16
+ 
+TextButton_17.Parent = Frame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.Position = UDim2.new(0.315151513, 0, 0.75111109, 0)
+TextButton_17.Size = UDim2.new(0, 100, 0, 50)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "fuse 3"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextWrapped = true
+TextButton_17.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(322.897, 40.8923, 85.4166 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_17.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_17.Parent = TextButton_17
+ 
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.315151513, 0, 0.164444402, 0)
+TextLabel_3.Size = UDim2.new(0, 565, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Fuels tanks"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+ 
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.616969705, 0, 0.60400486, 0)
+TextLabel_4.Size = UDim2.new(0, 316, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Exits"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+ 
+TextButton_18.Parent = Frame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.Position = UDim2.new(0.585454464, 0, 0.313333333, 0)
+TextButton_18.Size = UDim2.new(0, 100, 0, 50)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "jerrican 3"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+TextButton_18.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 399.856, 38.8897, 141.856)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_18.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_18.Parent = TextButton_18
+ 
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.00121212122, 0, 0.60400486, 0)
+TextLabel_5.Size = UDim2.new(0, 508, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Fuse and box"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+ 
+TextButton_19.Parent = Frame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.Position = UDim2.new(0.472727269, 0, 0.75111109, 0)
+TextButton_19.Size = UDim2.new(0, 100, 0, 50)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "fuse box 1"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+TextButton_19.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 398.134, 43.4396, 147.086)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_19.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_19.Parent = TextButton_19
+ 
+TextButton_20.Parent = Frame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.Position = UDim2.new(0.472727269, 0, 0.885177016, 0)
+TextButton_20.Size = UDim2.new(0, 100, 0, 50)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "fuse box 2"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextWrapped = true
+TextButton_20.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new(268.533, 47.924, 53.7388 )
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_20.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_20.Parent = TextButton_20
+ 
+TextButton_21.Parent = Frame
+TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_21.Position = UDim2.new(0.960000038, 0, -0.0395604409, 0)
+TextButton_21.Size = UDim2.new(0, 50, 0, 50)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "x"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+ 
+UICorner_21.CornerRadius = UDim.new(1, 8)
+UICorner_21.Parent = TextButton_21
+ 
+TextButton_22.Parent = Frame
+TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.Position = UDim2.new(0.72363627, 0, 0.313333333, 0)
+TextButton_22.Size = UDim2.new(0, 100, 0, 50)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "jerrican 4"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+TextButton_22.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 334.395, 38.9774, 123.723)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_22.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_22.Parent = TextButton_22
+ 
+TextButton_23.Parent = Frame
+TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.Position = UDim2.new(0.860605955, 0, 0.313333333, 0)
+TextButton_23.Size = UDim2.new(0, 100, 0, 50)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "jerrican 5"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+TextButton_23.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 369.362, 39.1877, 42.5682)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_23.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_23.Parent = TextButton_23
+ 
+TextButton_24.Parent = Frame
+TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.Position = UDim2.new(0.450908989, 0, 0.460586071, 0)
+TextButton_24.Size = UDim2.new(0, 100, 0, 50)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "jerrican 7"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 14.000
+TextButton_24.TextWrapped = true
+TextButton_24.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 290.136, 46.2688, 35.699)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_24.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_24.Parent = TextButton_24
+ 
+TextButton_25.Parent = Frame
+TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.Position = UDim2.new(0.315151393, 0, 0.460586071, 0)
+TextButton_25.Size = UDim2.new(0, 100, 0, 50)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "jerrican 6"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+TextButton_25.MouseButton1Click:connect(function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local location = CFrame.new( 334.073, 38.8898, 113.254)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+    humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    wait(0.1)
+    pl.CFrame = location
+
+end)  
+
+
+UICorner_25.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_25.Parent = TextButton_25
+ 
+-- Scripts:
+ 
+local function RAPO_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+ 
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+ 
+end
+coroutine.wrap(RAPO_fake_script)()
+local function ZSRVX_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+ 
+	local UIS = game:GetService('UserInputService')
+ 
+	local frame = script.Parent
+ 
+ 
+ 
+	local dragToggle = nil
+ 
+	local dragSpeed = 0.25
+ 
+	local dragStart = nil
+ 
+	local startPos = nil
+ 
+ 
+ 
+	local function updateInput(input)
+ 
+		local delta = input.Position - dragStart
+ 
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+ 
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+ 
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+ 
+	end
+ 
+ 
+ 
+	frame.InputBegan:Connect(function(input)
+ 
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+ 
+			dragToggle = true
+ 
+			dragStart = input.Position
+ 
+			startPos = frame.Position
+ 
+			input.Changed:Connect(function()
+ 
+				if input.UserInputState == Enum.UserInputState.End then
+ 
+					dragToggle = false
+ 
+				end
+ 
+			end)
+ 
+		end
+ 
+	end)
+ 
+ 
+ 
+	UIS.InputChanged:Connect(function(input)
+ 
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+ 
+			if dragToggle then
+ 
+				updateInput(input)
+ 
+			end
+ 
+		end
+ 
+	end)
+end
+coroutine.wrap(ZSRVX_fake_script)()
