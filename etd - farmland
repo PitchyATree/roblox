@@ -133,7 +133,7 @@ TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new( 278.28, 34.3011, -1.15386)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -373,7 +373,7 @@ TextButton_11.TextSize = 14.000
 TextButton_11.TextWrapped = true
 TextButton_11.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new( 203.022, 33.4746, -44.8326)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -397,7 +397,7 @@ TextButton_12.TextSize = 14.000
 TextButton_12.TextWrapped = true
 TextButton_12.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new(358.554, 31.7274, 127.838 )
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -421,7 +421,7 @@ TextButton_13.TextSize = 14.000
 TextButton_13.TextWrapped = true
 TextButton_13.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new( 305.665, 33.6415, 189.726)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -445,7 +445,7 @@ TextButton_14.TextSize = 14.000
 TextButton_14.TextWrapped = true
 TextButton_14.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new( 224.998, 32.0418, 176.081)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -517,7 +517,7 @@ TextButton_17.TextSize = 14.000
 TextButton_17.TextWrapped = true
 TextButton_17.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new( 264.14, 33.8582, 164.862)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -563,7 +563,7 @@ TextButton_18.TextSize = 14.000
 TextButton_18.TextWrapped = true
 TextButton_18.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new(307.203, 31.8657, 42.2757  )
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
@@ -660,7 +660,7 @@ TextButton_22.TextSize = 14.000
 TextButton_22.TextWrapped = true
 TextButton_22.MouseButton1Click:connect(function() 
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new( )
+    local location = CFrame.new(305.799, 31.8657, 38.0299 )
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
