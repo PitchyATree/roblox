@@ -1,0 +1,21 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("ph")
+window:Label("asked by Omega Project", Color3.fromRGB(127, 143, 166))
+window:Toggle("auto tp", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().tp = bool
+    while wait() do
+        if getgenv().tp == true then
+            
+            local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 503.3695983886719, 31.437271118164062, 361.23358154296875)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.5)
+pl.CFrame = location
+            
+        end
+        if getgenv().tp == false then
+            wait()
+            end
+        end-- bool is true or false depending on the state of the toggle
+end)
