@@ -1,0 +1,11 @@
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 32
+           
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/sjo%20obby%203_1"))()
+
+wait(0.1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/sjo%20obby%203_2"))()
+
+wait(0.1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/sjo%20obby%203_ToRebirth"))()
