@@ -1,27 +1,27 @@
-while wait() do
-        if getgenv().coins_collect == true then
-            local me = game.Players.LocalPlayer.Character.HumanoidRootPart
-            for i,v in pairs(game.Workspace.Coins:GetDescendants()) do
-                if v.Name == "Token" then
+
+while wait(1) do
+    if getgenv().coins_collect == true then
+        local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+        for i,v in pairs(game.Workspace.Coins:GetDescendants()) do
+            if v.Name == "Token" then
+                v.CFrame = me.CFrame
+            else
+                if v.Name == "AWOG" then
                     v.CFrame = me.CFrame
                 else
-                    if v.Name == "AWOG" then
+                    if v.Name == "WBB" then
                         v.CFrame = me.CFrame
                     else
-                        if v.Name == "WBB" then
+                        if v.Name == "COTC" then
                             v.CFrame = me.CFrame
                         else
-                            if v.Name == "COTC" then
+                            if v.Name == "TTG" then
                                 v.CFrame = me.CFrame
-                            else
-                                if v.Name == "TTG" then
-                                    v.CFrame = me.CFrame
-                                end
                             end
                         end
                     end
                 end
-            end -- ajouter une clause "end" supplémentaire ici
+            end
         end
     end
-end) -- ajouter une parenthèse fermante ici
+end
